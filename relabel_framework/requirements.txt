@@ -1,0 +1,10 @@
+PyYAML
+Pillow
+numpy
+matplotlib
+pandas
+plotly
+pydantic>=2
+streamlit
+typer
+pytest

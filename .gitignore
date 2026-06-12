@@ -1,0 +1,79 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Local IDE/editor state
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Datasets and downloaded source data
+data/
+dataset/
+datasets/
+raw_data/
+downloads/
+
+# Training outputs and experiment tracking
+output/
+outputs/
+results/
+runs/
+logs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+
+# Checkpoints, weights, and exported inference artifacts
+checkpoints/
+checkpoint/
+ckpts/
+weights/
+artifacts/
+exports/
+engines/
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.h5
+*.onnx
+*.engine
+*.plan
+*.trt
+*.pdmodel
+*.pdiparams
+*.pdopt
+
+# Large robotics / perception recordings
+*.bag
+*.bag.active
+*.db3
+*.mcap
+
+# Archives and generated bundles
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# OS metadata
+.DS_Store
+Thumbs.db

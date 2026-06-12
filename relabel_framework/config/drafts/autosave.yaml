@@ -1,0 +1,504 @@
+dataset:
+  name: Goose
+  root_dir: data/goose-ex
+  images_dir: images
+  labels_dir: labels
+  list_files:
+    train: train.txt
+    val: val.txt
+  label_version: base
+classes:
+  base_classes:
+  - undefined
+  - traffic_cone
+  - snow
+  - cobble
+  - obstacle
+  - leaves
+  - street_light
+  - bikeway
+  - ego_vehicle
+  - pedestrian_crossing
+  - road_block
+  - road_marking
+  - car
+  - bicycle
+  - person
+  - bus
+  - forest
+  - bush
+  - moss
+  - traffic_light
+  - motorcycle
+  - sidewalk
+  - curb
+  - asphalt
+  - gravel
+  - boom_barrier
+  - rail_track
+  - tree_crown
+  - tree_trunk
+  - debris
+  - crops
+  - soil
+  - rider
+  - animal
+  - truck
+  - on_rails
+  - caravan
+  - trailer
+  - building
+  - wall
+  - rock
+  - fence
+  - guard_rail
+  - bridge
+  - tunnel
+  - pole
+  - traffic_sign
+  - misc_sign
+  - barrier_tape
+  - kick_scooter
+  - low_grass
+  - high_grass
+  - scenery_vegetation
+  - sky
+  - water
+  - wire
+  - outlier
+  - heavy_machinery
+  - container
+  - hedge
+  - barrel
+  - pipe
+  - tree_root
+  - military_vehicle
+  palette:
+  - - 0
+    - 0
+    - 0
+  - - 255
+    - 255
+    - 0
+  - - 209
+    - 87
+    - 160
+  - - 255
+    - 52
+    - 255
+  - - 255
+    - 74
+    - 70
+  - - 0
+    - 137
+    - 65
+  - - 0
+    - 111
+    - 166
+  - - 163
+    - 0
+    - 89
+  - - 255
+    - 219
+    - 229
+  - - 122
+    - 73
+    - 0
+  - - 0
+    - 0
+    - 166
+  - - 99
+    - 255
+    - 172
+  - - 183
+    - 151
+    - 98
+  - - 0
+    - 77
+    - 67
+  - - 143
+    - 176
+    - 255
+  - - 153
+    - 125
+    - 135
+  - - 90
+    - 0
+    - 7
+  - - 128
+    - 150
+    - 147
+  - - 180
+    - 168
+    - 189
+  - - 27
+    - 68
+    - 0
+  - - 79
+    - 198
+    - 1
+  - - 59
+    - 93
+    - 255
+  - - 74
+    - 59
+    - 83
+  - - 255
+    - 47
+    - 128
+  - - 97
+    - 97
+    - 90
+  - - 52
+    - 54
+    - 45
+  - - 107
+    - 121
+    - 0
+  - - 0
+    - 194
+    - 160
+  - - 255
+    - 170
+    - 146
+  - - 136
+    - 111
+    - 76
+  - - 0
+    - 134
+    - 237
+  - - 209
+    - 97
+    - 0
+  - - 221
+    - 239
+    - 255
+  - - 0
+    - 0
+    - 53
+  - - 123
+    - 79
+    - 75
+  - - 161
+    - 194
+    - 153
+  - - 48
+    - 0
+    - 24
+  - - 10
+    - 166
+    - 216
+  - - 1
+    - 51
+    - 73
+  - - 0
+    - 132
+    - 111
+  - - 55
+    - 33
+    - 1
+  - - 255
+    - 181
+    - 0
+  - - 194
+    - 255
+    - 237
+  - - 160
+    - 121
+    - 191
+  - - 204
+    - 7
+    - 68
+  - - 192
+    - 185
+    - 178
+  - - 194
+    - 255
+    - 153
+  - - 0
+    - 30
+    - 9
+  - - 190
+    - 196
+    - 89
+  - - 111
+    - 0
+    - 98
+  - - 12
+    - 189
+    - 102
+  - - 238
+    - 195
+    - 255
+  - - 69
+    - 109
+    - 117
+  - - 183
+    - 123
+    - 104
+  - - 122
+    - 135
+    - 161
+  - - 255
+    - 140
+    - 0
+  - - 120
+    - 141
+    - 102
+  - - 250
+    - 208
+    - 159
+  - - 255
+    - 138
+    - 154
+  - - 209
+    - 87
+    - 160
+  - - 208
+    - 208
+    - 0
+  - - 221
+    - 0
+    - 0
+  - - 196
+    - 164
+    - 132
+  - - 64
+    - 64
+    - 64
+  groups:
+  - 5
+  - 5
+  - 3
+  - 2
+  - 5
+  - 2
+  - 5
+  - 1
+  - 0
+  - 1
+  - 5
+  - 1
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 4
+  - 2
+  - 5
+  - 5
+  - 1
+  - 6
+  - 1
+  - 2
+  - 5
+  - 4
+  - 5
+  - 5
+  - 6
+  - 5
+  - 3
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 6
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 2
+  - 4
+  - 5
+  - 0
+  - 6
+  - 5
+  - 5
+  - 5
+  - 5
+  - 4
+  - 5
+  - 5
+  - 6
+  - 0
+  id_mapping:
+    0: 5
+    1: 5
+    2: 3
+    3: 2
+    4: 5
+    5: 2
+    6: 5
+    7: 1
+    8: 0
+    9: 1
+    10: 5
+    11: 1
+    12: 5
+    13: 5
+    14: 5
+    15: 5
+    16: 5
+    17: 4
+    18: 2
+    19: 5
+    20: 5
+    21: 1
+    22: 6
+    23: 1
+    24: 2
+    25: 5
+    26: 4
+    27: 5
+    28: 5
+    29: 6
+    30: 5
+    31: 3
+    32: 5
+    33: 5
+    34: 5
+    35: 5
+    36: 5
+    37: 5
+    38: 5
+    39: 5
+    40: 6
+    41: 5
+    42: 5
+    43: 5
+    44: 5
+    45: 5
+    46: 5
+    47: 5
+    48: 5
+    49: 5
+    50: 2
+    51: 4
+    52: 5
+    53: 0
+    54: 6
+    55: 5
+    56: 5
+    57: 5
+    58: 5
+    59: 4
+    60: 5
+    61: 5
+    62: 6
+    63: 0
+  id_seq:
+    0: 0
+    1: 1
+    2: 2
+    3: 3
+    4: 4
+    5: 5
+    6: 6
+    7: 7
+    8: 8
+    9: 9
+    10: 10
+    11: 11
+    12: 12
+    13: 13
+    14: 14
+    15: 15
+    16: 16
+    17: 17
+    18: 18
+    19: 19
+    20: 20
+    21: 21
+    22: 22
+    23: 23
+    24: 24
+    25: 25
+    26: 26
+    27: 27
+    28: 28
+    29: 29
+    30: 30
+    31: 31
+    32: 32
+    33: 33
+    34: 34
+    35: 35
+    36: 36
+    37: 37
+    38: 38
+    39: 39
+    40: 40
+    41: 41
+    42: 42
+    43: 43
+    44: 44
+    45: 45
+    46: 46
+    47: 47
+    48: 48
+    49: 49
+    50: 50
+    51: 51
+    52: 52
+    53: 53
+    54: 54
+    55: 55
+    56: 56
+    57: 57
+    58: 58
+    59: 59
+    60: 60
+    61: 61
+    62: 62
+    63: 63
+superclasses:
+  mapping:
+    '0': Background
+    '1': Stable_Hard
+    '2': Stable_Soft
+    '3': Unstable
+    '4': Obstacle_Soft
+    '5': Obstacle
+    '6': Raised_Dipped
+  palette:
+  - - 128
+    - 128
+    - 128
+  - - 0
+    - 255
+    - 0
+  - - 255
+    - 255
+    - 0
+  - - 255
+    - 127
+    - 14
+  - - 138
+    - 173
+    - 255
+  - - 31
+    - 119
+    - 180
+  - - 214
+    - 39
+    - 40
+output:
+  new_annotation_suffix: _test1
+  new_list_prefix: test1_
+  output_dirs:
+    annotations: output/goose-ex/test1_annotations
+    lists: output/goose-ex/test1_lists
+    visuals: output/goose-ex/test1/visuals
+draft:
+  autosaved_by: relabel_framework/app.py
+  note: This file is rewritten automatically so UI progress survives refreshes and restarts.

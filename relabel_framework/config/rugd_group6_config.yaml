@@ -1,0 +1,89 @@
+dataset:
+  name: RUGD
+  root_dir: data/rugd
+  frames_dir: "RUGD_frames-with-annotations"
+  annotations_dir: "RUGD_annotations"
+  list_files:
+    train: "train.txt"
+    val: "val.txt"
+    test: "test.txt"
+
+classes:
+  base_classes:
+    - "dirt"
+    - "sand"
+    - "grass"
+    - "tree"
+    - "pole"
+    - "water"
+    - "sky"
+    - "vehicle"
+    - "container/generic-object"
+    - "asphalt"
+    - "gravel"
+    - "building"
+    - "mulch"
+    - "rock-bed"
+    - "log"
+    - "bicycle"
+    - "person"
+    - "fence"
+    - "bush"
+    - "sign"
+    - "rock"
+    - "bridge"
+    - "concrete"
+    - "picnic-table"
+  # Palette for base classes
+  palette:
+    - [108, 64, 20]
+    - [255, 229, 204]
+    - [0, 102, 0]
+    - [0, 255, 0]
+    - [0, 153, 153]
+    - [0, 128, 255]
+    - [0, 0, 255]
+    - [255, 255, 0]
+    - [255, 0, 127]
+    - [64, 64, 64]
+    - [255, 128, 0]
+    - [255, 0, 0]
+    - [153, 76, 0]
+    - [102, 102, 0]
+    - [102, 0, 0]
+    - [0, 255, 128]
+    - [204, 153, 255]
+    - [102, 0, 204]
+    - [255, 153, 204]
+    - [0, 102, 102]
+    - [153, 204, 255]
+    - [102, 255, 255]
+    - [101, 101, 11]
+    - [114, 85, 47]
+  groups:
+    [2, 2, 2, 5, 5, 4, 0, 5, 5, 1, 2, 5, 2, 3, 5, 5, 5, 5, 5, 0, 3, 5, 1, 5]
+
+superclasses:
+  mapping:
+    "0": "Background"
+    "1": "Navigable_Smooth"
+    "2": "Navigable_Rough"
+    "3": "Navigable_Bumpy"
+    "4": "Non_Navigable"
+    "5": "Obstacle"
+  # Palette for superclasses (index 0..5). Customize colors as you wish:
+  palette:
+    - [128, 128, 128] # group 0 => Background
+    - [44, 160, 44] # group 1 => Navigable_Smooth
+    - [255, 255, 0] # group 2 => Navigable_Rough
+    - [140, 86, 75] # group 3 => Navigable_Bumpy
+    - [214, 39, 40] # group 4 => Non_Navigable
+    - [31, 119, 180] # group 5 => Obstacle
+
+output:
+  new_annotation_suffix: "_group6"
+  new_list_prefix: "group6_"
+  output_dirs:
+    annotations: "output/rugd/group6_annotations"
+    lists: "output/rugd/group6_lists"
+    visuals: "output/rugd/group6/visuals"
