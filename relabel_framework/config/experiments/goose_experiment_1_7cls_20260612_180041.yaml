@@ -501,12 +501,17 @@ superclasses:
     '5': 0.0
     '6': -1.0
 output:
-  new_annotation_suffix: _test1
-  new_list_prefix: test1_
+  new_annotation_suffix: _goose_experiment_1_7cls_20260612_180041
+  new_list_prefix: goose_experiment_1_7cls_20260612_180041_
   output_dirs:
-    annotations: output/goose-ex/test1_annotations
-    lists: output/goose-ex/test1_lists
-    visuals: output/goose-ex/test1/visuals
+    annotations: output/goose_ex/goose_experiment_1_7cls_20260612_180041/labels
+    lists: output/goose_ex/goose_experiment_1_7cls_20260612_180041/lists
+    visuals: output/goose_ex/goose_experiment_1_7cls_20260612_180041/previews
 draft:
   autosaved_by: relabel_framework/app.py
   note: This file is rewritten automatically so UI progress survives refreshes and restarts.
+experiment:
+  name: experiment_1
+  slug: goose_experiment_1_7cls_20260612_180041
+  created_at: '2026-06-12T18:00:41'
+  source_label_version: base
